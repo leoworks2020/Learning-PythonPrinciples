@@ -1,0 +1,32 @@
+"""
+Python Principles Challenge
+-----------------------------------------------------------------------------------------------
+Challenge:
+Middle Letter
+Write a function named mid that takes a string as its parameter.
+Your function should extract and return the middle letter.
+If there is no middle letter, your function should return the empty string.
+
+For example, mid("abc") should return "b" and mid("aaaa") should return "".
+-----------------------------------------------------------------------------------------------
+Challenge Start Date: 2023-07-11
+Challenge End Date:
+"""
+
+def mid(string):
+    middle_letter = string
+    #print(len(string))
+    if len(string) % 2 == 0:
+        middle_letter = ""
+    else:
+        middle_index = int(len(middle_letter)/2)
+        middle_letter = string[middle_index]
+    return middle_letter
+
+
+
+print("Please inform the string to be checked: ")
+input_string = input()
+
+result = mid(input_string)
+print(result)
