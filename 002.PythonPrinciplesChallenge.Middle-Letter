@@ -10,9 +10,8 @@ If there is no middle letter, your function should return the empty string.
 For example, mid("abc") should return "b" and mid("aaaa") should return "".
 -----------------------------------------------------------------------------------------------
 Challenge Start Date: 2023-07-11
-Challenge End Date:
+Challenge End Date:   2023-07-11
 """
-
 def mid(string):
     middle_letter = string
     #print(len(string))
