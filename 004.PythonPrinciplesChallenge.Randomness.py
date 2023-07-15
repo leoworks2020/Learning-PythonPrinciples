@@ -11,7 +11,7 @@ Calling the function multiple times should (usually) return different numbers.
 For example, calling random_number() some times might first return 42, then 63, then 1.
 -----------------------------------------------------------------------------------------------
 Challenge Start Date:   2023-07-14
-Challenge End Date:
+Challenge End Date:     2023-07-14
 """
 import random
 
